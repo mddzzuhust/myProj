@@ -1,0 +1,2 @@
+className = reflection.property.Student
+methodName = show
