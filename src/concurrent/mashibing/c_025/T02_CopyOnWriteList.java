@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 写时复制容器 copy on write
  * 多线程环境下，写时效率低，读时效率高
  * 适合写少读多的环境
@@ -7,7 +7,7 @@
  * 
  * @author 马士兵
  */
-package yxxy.c_025;
+package concurrent.mashibing.c_025;
 
 import java.util.ArrayList;
 import java.util.Arrays;

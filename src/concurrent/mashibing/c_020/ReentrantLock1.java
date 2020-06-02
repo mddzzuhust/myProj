@@ -1,10 +1,10 @@
-﻿/**
+/**
  * reentrantlock用于替代synchronized
  * 本例中由于m1锁定this,只有m1执行完毕的时候,m2才能执行
  * 这里是复习synchronized最原始的语义
  * @author mashibing
  */
-package yxxy.c_020;
+package concurrent.mashibing.c_020;
 
 import java.util.concurrent.TimeUnit;
 

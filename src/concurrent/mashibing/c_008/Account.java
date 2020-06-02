@@ -1,10 +1,10 @@
-﻿/**
+/**
  * 对业务写方法加锁
  * 对业务读方法不加锁
  * 容易产生脏读问题（dirtyRead）
  */
 
-package yxxy.c_008;
+package concurrent.mashibing.c_008;
 
 import java.util.concurrent.TimeUnit;
 

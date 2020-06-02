@@ -1,4 +1,4 @@
-﻿/**
+/**
  * reentrantlock用于替代synchronized
  * 由于m1锁定this,只有m1执行完毕的时候,m2才能执行
  * 这里是复习synchronized最原始的语义
@@ -10,7 +10,7 @@
  * 使用reentrantlock可以进行“尝试锁定”tryLock，这样无法锁定，或者在指定时间内无法锁定，线程可以决定是否继续等待
  * @author mashibing
  */
-package yxxy.c_020;
+package concurrent.mashibing.c_020;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;

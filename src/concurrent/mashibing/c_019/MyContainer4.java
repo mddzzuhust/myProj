@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 曾经的面试题：（淘宝？）
  * 实现一个容器，提供两个方法，add，size
  * 写两个线程，线程1添加10个元素到容器中，线程2实现监控元素的个数，当个数到5个时，线程2给出提示并结束
@@ -16,7 +16,7 @@
  * 整个通信过程比较繁琐
  * @author mashibing
  */
-package yxxy.c_019;
+package concurrent.mashibing.c_019;
 
 import java.util.ArrayList;
 import java.util.List;

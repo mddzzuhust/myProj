@@ -6,7 +6,7 @@
  * 因此要非常小心的处理同步业务逻辑中的异常
  * @author mashibing
  */
-package yxxy.c_011;
+package concurrent.mashibing.c_011;
 
 import java.util.concurrent.TimeUnit;
 

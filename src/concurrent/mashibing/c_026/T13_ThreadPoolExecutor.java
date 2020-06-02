@@ -1,7 +1,7 @@
-﻿/**
+/**
  * 自定义线程池
  */
-package yxxy.c_026;
+package concurrent.mashibing.c_026;
 
 
 public class T13_ThreadPoolExecutor {

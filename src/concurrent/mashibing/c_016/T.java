@@ -4,7 +4,7 @@
  * 比较m1和m2
  * @author mashibing
  */
-package yxxy.c_016;
+package concurrent.mashibing.c_016;
 
 import java.util.concurrent.TimeUnit;
 

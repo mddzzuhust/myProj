@@ -1,9 +1,9 @@
-﻿/**
+/**
  * 对比上面一个小程序，分析一下这个程序的输出
  * @author mashibing
  */
 
-package yxxy.c_006;
+package concurrent.mashibing.c_006;
 
 public class T implements Runnable {
 

@@ -1,9 +1,9 @@
-﻿/**
+/**
  * 解决同样的问题的更高效的方法，使用AtomXXX类
  * AtomXXX类本身方法都是原子性的，但不能保证多个方法连续调用是原子性的
  * @author mashibing
  */
-package yxxy.c_015;
+package concurrent.mashibing.c_015;
 
 import java.util.ArrayList;
 import java.util.List;

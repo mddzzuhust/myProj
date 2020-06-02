@@ -1,10 +1,10 @@
-﻿/**
+/**
  * 锁定某对象o，如果o的属性发生改变，不影响锁的使用
  * 但是如果o变成另外一个对象，则锁定的对象发生改变
  * 应该避免将锁定对象的引用变成另外的对象
  * @author mashibing
  */
-package yxxy.c_017;
+package concurrent.mashibing.c_017;
 
 import java.util.concurrent.TimeUnit;
 

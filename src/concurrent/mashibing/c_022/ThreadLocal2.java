@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ThreadLocal线程局部变量
  *
  * ThreadLocal是使用空间换时间，synchronized是使用时间换空间
@@ -8,7 +8,7 @@
  * 
  * @author 马士兵
  */
-package yxxy.c_022;
+package concurrent.mashibing.c_022;
 
 import java.util.concurrent.TimeUnit;
 

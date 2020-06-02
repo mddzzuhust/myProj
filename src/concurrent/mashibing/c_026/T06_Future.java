@@ -1,7 +1,7 @@
-﻿/**
+/**
  * 认识future
  */
-package yxxy.c_026;
+package concurrent.mashibing.c_026;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;

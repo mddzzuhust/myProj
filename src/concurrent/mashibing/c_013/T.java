@@ -1,9 +1,9 @@
-﻿/**
+/**
  * volatile并不能保证多个线程共同修改running变量时所带来的不一致问题，也就是说volatile不能替代synchronized
  * 运行下面的程序，并分析结果
  * @author mashibing
  */
-package yxxy.c_013;
+package concurrent.mashibing.c_013;
 
 import java.util.ArrayList;
 import java.util.List;

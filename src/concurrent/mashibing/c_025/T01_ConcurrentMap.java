@@ -1,9 +1,9 @@
-﻿/**
+/**
  * http://blog.csdn.net/sunxianghuang/article/details/52221913 
  * http://www.educity.cn/java/498061.html
  * 阅读concurrentskiplistmap
  */
-package yxxy.c_025;
+package concurrent.mashibing.c_025;
 
 import java.util.Arrays;
 import java.util.Hashtable;

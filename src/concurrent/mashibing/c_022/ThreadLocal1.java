@@ -1,9 +1,9 @@
-﻿/**
+/**
  * ThreadLocal线程局部变量
  * 
  * @author 马士兵
  */
-package yxxy.c_022;
+package concurrent.mashibing.c_022;
 
 import java.util.concurrent.TimeUnit;
 

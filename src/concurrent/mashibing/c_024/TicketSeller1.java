@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 有N张火车票，每张票都有一个编号
  * 同时有10个窗口对外售票
  * 请写一个模拟程序
@@ -9,7 +9,7 @@
  * 
  * @author 马士兵
  */
-package yxxy.c_024;
+package concurrent.mashibing.c_024;
 
 import java.util.ArrayList;
 import java.util.List;

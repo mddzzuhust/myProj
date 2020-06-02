@@ -1,9 +1,9 @@
-﻿/**
+/**
  * 同步和非同步方法是否可以同时调用？
  * @author mashibing
  */
 
-package yxxy.c_007;
+package concurrent.mashibing.c_007;
 
 public class T {
 

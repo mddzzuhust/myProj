@@ -1,7 +1,7 @@
-﻿/**
+/**
  * 线程池的概念
  */
-package yxxy.c_026;
+package concurrent.mashibing.c_026;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

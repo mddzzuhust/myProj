@@ -7,7 +7,7 @@
  * 
  * @author 马士兵
  */
-package yxxy.c_023;
+package concurrent.mashibing.c_023;
 
 import java.util.Arrays;
 

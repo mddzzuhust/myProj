@@ -1,10 +1,10 @@
-﻿/**
+/**
  * synchronized关键字
  * 对某个对象加锁
  * @author mashibing
  */
 
-package yxxy.c_003;
+package concurrent.mashibing.c_003;
 
 public class T {
 

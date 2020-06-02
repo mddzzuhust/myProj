@@ -2,7 +2,7 @@
  * 线程池的概念
  * nasa
  */
-package yxxy.c_026;
+package concurrent.mashibing.c_026;
 
 import java.util.ArrayList;
 import java.util.List;

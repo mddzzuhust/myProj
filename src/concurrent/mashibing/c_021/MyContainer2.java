@@ -9,7 +9,7 @@
  * 
  * @author mashibing
  */
-package yxxy.c_021;
+package concurrent.mashibing.c_021;
 
 import java.util.LinkedList;
 import java.util.concurrent.TimeUnit;
