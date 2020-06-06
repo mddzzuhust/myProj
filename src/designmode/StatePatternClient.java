@@ -1,3 +1,5 @@
+package designmode;
+
 public class StatePatternClient {
     public static void main(String[] args){
         Context1 context1=new Context1();

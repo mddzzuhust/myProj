@@ -1,3 +1,5 @@
+package designmode;
+
 public class DIPtest {
     public static void main(String[] args){
         Customer wang=new Customer();

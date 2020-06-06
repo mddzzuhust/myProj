@@ -1,3 +1,5 @@
+package designmode;
+
 public class AbstractFactoryTest {
     public static void main(String[] args){
         try {

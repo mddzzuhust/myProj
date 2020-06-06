@@ -1,3 +1,5 @@
+package designmode;
+
 public class ProroTypeCitation {
     public static void main(String[] args) throws CloneNotSupportedException{
         citation obj1=new citation("zhangsan","sanhaoxuesheng","shaoguan");

@@ -1,3 +1,5 @@
+package designmode;
+
 public class LSPtest {
     public static void main(String[] args){
         Bird bird1=new Swallow();

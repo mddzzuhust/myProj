@@ -1,3 +1,5 @@
+package designmode;
+
 public class HookTemplateMethod {
     public static void main(String[] args){
         HookAbstractClass tm=new HookConcreteClass();

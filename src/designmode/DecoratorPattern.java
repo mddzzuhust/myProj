@@ -1,3 +1,5 @@
+package designmode;
+
 public class DecoratorPattern {
     public static void main(String[] args){
         Component p=new ConcreteComponent();

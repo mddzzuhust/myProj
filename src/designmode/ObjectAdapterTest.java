@@ -1,3 +1,5 @@
+package designmode;
+
 class ObjectAdapter implements Target{
     private Adaptee adaptee;
     public ObjectAdapter(Adaptee adaptee){

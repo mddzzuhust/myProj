@@ -1,3 +1,5 @@
+package designmode;
+
 import java.awt.GridLayout;
 import java.awt.event.*;
 import javax.swing.*;

@@ -1,3 +1,5 @@
+package designmode;
+
 interface TwoWayTarget{
     public void request();
 }

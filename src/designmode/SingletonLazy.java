@@ -1,3 +1,5 @@
+package designmode;
+
 public class SingletonLazy {
     public static void main(String[] args){
         President zt1=President.getInstance();

@@ -1,3 +1,5 @@
+package designmode;
+
 import java.util.HashMap;
 import java.util.Scanner;
 

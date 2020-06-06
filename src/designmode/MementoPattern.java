@@ -1,3 +1,5 @@
+package designmode;
+
 import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 public class MementoPattern {

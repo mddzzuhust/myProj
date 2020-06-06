@@ -1,3 +1,5 @@
+package designmode;
+
 public class ISPtest {
     public static void main(String[] args){
         InputModule input=StuScoreList.getInputModule();

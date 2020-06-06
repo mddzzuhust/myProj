@@ -1,3 +1,5 @@
+package designmode;
+
 public class PrototypeTest {
     public static void main(String[] args) throws CloneNotSupportedException{
         Realizetype obj1=new Realizetype();

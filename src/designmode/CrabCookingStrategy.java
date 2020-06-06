@@ -1,3 +1,5 @@
+package designmode;
+
 import javax.swing.*;
 import java.awt.Component;
 import java.awt.event.ItemEvent;

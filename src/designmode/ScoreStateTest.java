@@ -1,3 +1,5 @@
+package designmode;
+
 public class ScoreStateTest {
     public static void main(String[] args){
         ScoreContext account=new ScoreContext();

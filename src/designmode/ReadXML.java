@@ -1,3 +1,5 @@
+package designmode;
+
 import javax.xml.parsers.*;
 import org.w3c.dom.*;
 import java.io.*;
@@ -7,7 +9,7 @@ class ReadXML {
             DocumentBuilderFactory dFactory=DocumentBuilderFactory.newInstance();
             DocumentBuilder builder=dFactory.newDocumentBuilder();
             Document doc;
-            doc=builder.parse(new File("src/config.xml"));
+            doc=builder.parse(new File("src/designmode/config.xml"));
             NodeList nl=doc.getElementsByTagName("className");
             Node classNode=null;
             if(args.equals("color")){

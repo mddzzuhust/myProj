@@ -1,3 +1,5 @@
+package designmode;
+
 public class LeaveApprovalTest {
     public static void main(String[] args){
         Leader teacher1=new ClassAdviser();

@@ -1,3 +1,5 @@
+package designmode;
+
 import javax.swing.*;
 
 public class WySpecialtyProxy {

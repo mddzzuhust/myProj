@@ -1,3 +1,5 @@
+package designmode;
+
 public class StudyAbroadProcess
 {
     public static void main(String[] args)

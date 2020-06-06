@@ -1,3 +1,5 @@
+package designmode;
+
 interface Target{
     public void request();
 }

@@ -1,4 +1,4 @@
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
+package designmode;
 
 public class PrototypeMemento {
     public static void main(String[] args){

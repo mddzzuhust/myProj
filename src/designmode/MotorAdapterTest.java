@@ -1,3 +1,5 @@
+package designmode;
+
 interface Motor{
     public void drive();
 }

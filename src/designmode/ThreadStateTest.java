@@ -1,3 +1,5 @@
+package designmode;
+
 public class ThreadStateTest {
     public static void main(String[] args){
         ThreadContext context=new ThreadContext();

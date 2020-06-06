@@ -1,3 +1,5 @@
+package designmode;
+
 public class CommandPattern {
     public static void main(String[] args){
         Command cmd=new ConcreteCommand();
