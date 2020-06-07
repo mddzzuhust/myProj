@@ -1,6 +1,7 @@
 package designmode;
 
 import java.util.*;
+import java.util.Iterator;
 
 public class BellEventTest {
     public static void main(String[] args){
@@ -44,7 +45,7 @@ class BellEventSource{
         BellEventListener ren=null;
         Iterator<BellEventListener> iterator=listener.iterator();
         while (iterator.hasNext()){
-            ren=iterator.next();
+            ren= (BellEventListener) iterator.next();
             ren.heardBell(e);
         }
     }
