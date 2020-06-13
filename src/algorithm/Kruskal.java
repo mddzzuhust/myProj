@@ -106,3 +106,5 @@ class Edge
     public int end;//终边
     public double cost;//权重
 }
+
+
