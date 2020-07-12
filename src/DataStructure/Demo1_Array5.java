@@ -1,5 +1,7 @@
 package DataStructure;
 
+import java.util.Collections;
+
 public class Demo1_Array5 {
     public static void main(String[] args) {
         String[] array = new String[5];
