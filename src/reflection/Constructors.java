@@ -50,6 +50,6 @@ public class Constructors {
         System.out.println(con);
 //调用构造方法
         con.setAccessible(true);//暴力访问(忽略掉访问修饰符)
-        obj = con.newInstance('男');
+        obj = con.newInstance('a');
     }
 }
