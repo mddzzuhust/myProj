@@ -21,7 +21,7 @@ public class Solution1419 {
             }else if(chars[i]=='r'){
                 c--;r++;
             }else if(chars[i]=='o'){
-                
+
                 r--;o++;
             }else if(chars[i]=='a'){
                 o--;a++;
