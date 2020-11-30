@@ -1,7 +1,5 @@
 package leetcode;
 
-import Greedy.Solution;
-
 import java.util.Arrays;
 
 public class Solution1671 {
