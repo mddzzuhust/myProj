@@ -1,6 +1,6 @@
 package algorithm;
 
-
+//字典树
 public class Trie{
     private Node root;
 
