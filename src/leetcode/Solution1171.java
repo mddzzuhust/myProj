@@ -6,7 +6,8 @@ import java.util.Map;
 class ListNode {
     int val;
     ListNode next;
-    ListNode(int x) { val = x; }
+    ListNode(int x) { this.val = x; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
 public class Solution1171 {
     public ListNode removeZeroSumSublists(ListNode head) {
