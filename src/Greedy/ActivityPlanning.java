@@ -1,4 +1,4 @@
-package Greedy;
+package greedy;
 
 /**
  * 活动安排问题

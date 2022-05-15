@@ -1,6 +1,6 @@
 package leetcode;
 
-import Greedy.Solution;
+import greedy.Solution;
 import org.omg.CORBA.INTERNAL;
 
 import java.util.*;

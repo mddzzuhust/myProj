@@ -1,4 +1,4 @@
-package Greedy;
+package greedy;
 import java.util.Arrays;
 //题目一：最优装载问题
 //一条小船用来运输古董到河对岸。假设船的最大载重量为MAXWEIGHT，每件古董的重量为w_i，怎么能够装载最多数量的古董到船上呢？

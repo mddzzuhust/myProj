@@ -1,6 +1,6 @@
 package leetcode;
 
-import Greedy.Solution;
+import greedy.Solution;
 
 public class Solution1696 {
     public int maxResult(int[] nums, int k) {

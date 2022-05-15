@@ -1,6 +1,6 @@
 package leetcode;
 
-import Greedy.Solution;
+import greedy.Solution;
 
 public class Solution1680 {
     public int concatenatedBinary(int n) {

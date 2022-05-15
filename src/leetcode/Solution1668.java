@@ -1,6 +1,6 @@
 package leetcode;
 
-import Greedy.Solution;
+import greedy.Solution;
 
 public class Solution1668 {
     public int maxRepeating(String sequence, String word) {

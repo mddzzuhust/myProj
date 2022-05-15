@@ -1,6 +1,6 @@
 package leetcode;
 
-import Greedy.Solution;
+import greedy.Solution;
 
 public class Solution1678 {
     public String interpret(String command) {

@@ -1,4 +1,4 @@
-package Greedy;
+package greedy;
 
 //题目三：剪绳子
 //给定一根长度为n的绳子，请把绳子剪成m段，

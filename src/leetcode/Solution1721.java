@@ -1,6 +1,6 @@
 package leetcode;
 
-import Greedy.Solution;
+import greedy.Solution;
 
 public class Solution1721 {
     public ListNode swapNodes(ListNode head, int k) {
