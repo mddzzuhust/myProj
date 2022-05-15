@@ -1,4 +1,4 @@
-package algorithm;
+package sort;
 
 /**
  * 归并排序：Java
@@ -7,8 +7,7 @@ package algorithm;
  * @date 2014/03/12
  */
 
-public class MergeSort {
-
+public class MergeSort2 {
     /*
      * 将一个数组中的两个相邻有序区间合并成一个
      *

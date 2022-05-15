@@ -1,4 +1,4 @@
-package algorithm;
+package sort;
 
 /**
  * 直接插入排序：Java

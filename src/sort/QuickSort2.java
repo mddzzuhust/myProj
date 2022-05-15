@@ -1,4 +1,4 @@
-package algorithm;
+package sort;
 
 /**
  * 快速排序：Java
@@ -7,7 +7,7 @@ package algorithm;
  * @date 2014/03/11
  */
 
-public class QuickSort {
+public class QuickSort2 {
 
     /*
      * 快速排序
