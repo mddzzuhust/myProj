@@ -14,7 +14,7 @@ public class Test {
         // 1、声明注册bean
         BeanDefined beanObj = new BeanDefined();
         beanObj.setBeanId("student");
-        beanObj.setClassPath("IOC.Student");
+        beanObj.setClassPath("ioc.Student");
         List<BeanDefined> beanList = new ArrayList<BeanDefined>();
         beanList.add(beanObj);
 

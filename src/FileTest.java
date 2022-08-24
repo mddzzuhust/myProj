@@ -8,7 +8,7 @@ public class FileTest {
 
     public static void main(String[] args) throws IOException {
         FileTest fileTest = new FileTest();
-        fileTest.scanFilePath("E:\\github\\MYPROJ\\src");
+        fileTest.scanFilePath("E:\\github\\MovieCrawler\\src");
     }
 
     private void scanFilePath(String srcPath) throws IOException {

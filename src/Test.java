@@ -5,5 +5,7 @@ public class Test {
         for (String item:strings){
             System.out.println(item);
         }
+
+        System.out.println("".split("\\|").toString());
     }
 }
