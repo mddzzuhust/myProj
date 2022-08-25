@@ -1,7 +1,5 @@
 package concurrent.TwowanZiJavaConcurrent;
 
-import sun.awt.windows.ThemeReader;
-
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
