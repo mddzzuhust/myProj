@@ -14,7 +14,7 @@ public class Demo {
 
     public static String getValue(String key) throws IOException{
         Properties pro = new Properties();
-        FileReader in = new FileReader("D:\\MYPROJ\\src\\reflection\\property\\pro.txt");
+        FileReader in = new FileReader("E:\\github\\MYPROJ\\src\\reflection\\property\\pro.txt");
         pro.load(in);
         in.close();
         return pro.getProperty(key);

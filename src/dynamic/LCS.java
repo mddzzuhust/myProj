@@ -1,5 +1,8 @@
 package dynamic;
-
+/**
+ * LCS是Longest Common Subsequence的缩写，即最长公共子序列。
+ * 一个序列，如果是两个或多个已知序列的子序列，且是所有子序列中最长的，则为最长公共子序列。
+ */
 public class LCS {
     public static void main(String[] args){
         String a="saabcd";

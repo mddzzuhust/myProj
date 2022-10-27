@@ -9,7 +9,7 @@ public class Test {
         // 1、声明注册bean
         BeanDefined beanObj = new BeanDefined();
         beanObj.setBeanId("student");
-        beanObj.setClassPath("DI.Student");
+        beanObj.setClassPath("di.Student");
         // 设置 property
         Map<String, String> propertyMap = beanObj.getPropertyMap();
         propertyMap.put("name", "kxm");
@@ -18,7 +18,7 @@ public class Test {
         // 注册教师类
         BeanDefined teacher = new BeanDefined();
         teacher.setBeanId("teacher");
-        teacher.setClassPath("DI.Teacher");
+        teacher.setClassPath("di.Teacher");
         List<BeanDefined> beanList = new ArrayList<BeanDefined>();
         beanList.add(beanObj);
         beanList.add(teacher);

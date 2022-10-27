@@ -1,7 +1,9 @@
 package dynamic;
 
 import java.util.Scanner;
-
+/**
+ * LIS（Longest Increasing Subsequence）最长上升（不下降）子序列
+ */
 public class LIS {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
