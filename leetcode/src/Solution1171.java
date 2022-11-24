@@ -3,12 +3,6 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { this.val = x; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-}
 public class Solution1171 {
     public ListNode removeZeroSumSublists(ListNode head) {
         ListNode dummy = new ListNode(0);
@@ -25,5 +19,12 @@ public class Solution1171 {
             node.next = map.get(sum).next;
         }
         return dummy.next;
+    }
+
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { this.val = x; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 }
