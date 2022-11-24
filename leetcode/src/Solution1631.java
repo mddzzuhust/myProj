@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1631 {
     private int m;

@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1544 {
     public String makeGood(String s) {

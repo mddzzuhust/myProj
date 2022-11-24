@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution403 {
     public boolean canCross(int[] stones) {

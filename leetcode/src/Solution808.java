@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution808 {
     public double soupServings(int N) {

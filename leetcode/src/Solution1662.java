@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1662 {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {

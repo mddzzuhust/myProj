@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1668 {
     public int maxRepeating(String sequence, String word) {

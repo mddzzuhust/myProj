@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1139 {
     public int largest1BorderedSquare(int[][] grid) {

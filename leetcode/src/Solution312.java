@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution312 {
     public int maxCoins(int[] nums) {

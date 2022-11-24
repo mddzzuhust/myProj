@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1659 {
     private int statemax = 1;

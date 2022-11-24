@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1734 {
     public int[] decode(int[] encoded) {

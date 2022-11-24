@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution623 {
     class TreeNode {

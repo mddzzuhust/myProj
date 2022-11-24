@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution393 {
     static final int MASK1 = 1<<7;

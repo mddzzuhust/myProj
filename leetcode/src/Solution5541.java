@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution5541 {
     public int countSubstrings(String s, String t) {

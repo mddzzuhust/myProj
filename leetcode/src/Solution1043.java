@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1043 {
     public int maxSumAfterPartitioning(int[] A, int K) {

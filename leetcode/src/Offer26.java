@@ -1,4 +1,3 @@
-package leetcode;
 
 public class Offer26 {
     public boolean isSubStructure(TreeNode A, TreeNode B) {
@@ -25,5 +24,18 @@ public class Offer26 {
         if(a.val!=b.val)
             return false;
         return isMatch(a.left,b.left)&&isMatch(a.right,b.right);
+    }
+
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }

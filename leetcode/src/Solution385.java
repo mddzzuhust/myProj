@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution385 {
     int index = 0;

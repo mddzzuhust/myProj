@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1728 {
     public boolean canMouseWin(String[] grid, int catJump, int mouseJump) {

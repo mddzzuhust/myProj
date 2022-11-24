@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1664 {
     public int waysToMakeFair(int[] nums) {

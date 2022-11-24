@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution0208 {
     public ListNode detectCycle(ListNode head) {

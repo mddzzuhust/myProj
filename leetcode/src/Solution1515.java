@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1515 {
     public double getMinDistSum(int[][] positions) {

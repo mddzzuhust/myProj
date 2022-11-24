@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution397 {
     public int integerReplacement(int n) {

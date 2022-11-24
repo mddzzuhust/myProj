@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution394 {
     public String decodeString(String s) {

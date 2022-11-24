@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1578 {
     public int minCost(String s, int[] cost) {

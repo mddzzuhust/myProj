@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution10_03 {
     public int search(int[] arr, int target) {

@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution5527 {
     int mod = 1000000007;

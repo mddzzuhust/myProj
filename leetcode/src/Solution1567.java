@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1567 {
     public int getMaxLen(int[] nums) {

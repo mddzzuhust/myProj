@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution390 {
     public int lastRemaining(int n) {

@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution0206 {
     public boolean isPalindrome(ListNode head) {

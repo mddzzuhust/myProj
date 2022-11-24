@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1254 {
     public int closedIsland(int[][] grid) {

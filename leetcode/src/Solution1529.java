@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1529 {
     public int minFlips(String target) {

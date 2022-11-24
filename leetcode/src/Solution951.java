@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution951 {
     public boolean flipEquiv(TreeNode root1, TreeNode root2) {

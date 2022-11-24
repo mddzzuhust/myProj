@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1646 {
     public int getMaximumGenerated(int n) {

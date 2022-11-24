@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1563 {
     public int stoneGameV(int[] stoneValue) {

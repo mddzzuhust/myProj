@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1594 {
     public int maxProductPath(int[][] grid) {

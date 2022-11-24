@@ -1,17 +1,3 @@
-package leetcode;
-
- class TreeNode {
-     int val;
-     TreeNode left;
-     TreeNode right;
-     TreeNode() {}
-     TreeNode(int val) { this.val = val; }
-     TreeNode(int val, TreeNode left, TreeNode right) {
-         this.val = val;
-         this.left = left;
-         this.right = right;
-     }
- }
 public class Solution437 {
     public int pathSum(TreeNode root, int sum) {
         if(root==null){
@@ -34,6 +20,19 @@ public class Solution437 {
             result = 1;
         }
         return result + CountPath(root.left,sum)+CountPath(root.right,sum);
+    }
+
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 
 }

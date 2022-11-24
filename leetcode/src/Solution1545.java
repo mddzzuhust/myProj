@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1545 {
     public char findKthBit(int n, int k) {

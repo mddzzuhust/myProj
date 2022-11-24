@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution395 {
     public int longestSubstring(String s, int k) {

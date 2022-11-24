@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1566 {
     public boolean containsPattern(int[] arr, int m, int k) {

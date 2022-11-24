@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1616 {
     public boolean checkPalindromeFormation(String a, String b) {

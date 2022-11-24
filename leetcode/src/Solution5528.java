@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution5528 {
     public int[] bestCoordinate(int[][] towers, int radius) {

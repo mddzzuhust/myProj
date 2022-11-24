@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1643 {
     public String kthSmallestPath(int[] destination, int k) {

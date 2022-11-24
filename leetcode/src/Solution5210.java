@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution5210 {
     public int[] findBall(int[][] grid) {

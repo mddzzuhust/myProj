@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1680 {
     public int concatenatedBinary(int n) {

@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1672 {
     public int maximumWealth(int[][] accounts) {

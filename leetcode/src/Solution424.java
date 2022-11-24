@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution424 {
     public int characterReplacement(String s, int k) {

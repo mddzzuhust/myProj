@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1696 {
     public int maxResult(int[] nums, int k) {

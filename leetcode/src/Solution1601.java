@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1601 {
     int max = 0;

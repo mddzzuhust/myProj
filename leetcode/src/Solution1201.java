@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1201 {
     public int nthUglyNumber(int n, int a, int b, int c) {

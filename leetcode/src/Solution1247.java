@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1247 {
     public int minimumSwap(String s1, String s2) {

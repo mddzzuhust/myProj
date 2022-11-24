@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution430 {
     class Node {

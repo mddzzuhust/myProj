@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1535 {
     public int getWinner(int[] arr, int k) {

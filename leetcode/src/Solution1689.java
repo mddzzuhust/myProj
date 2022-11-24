@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1689 {
     public int minPartitions(String n) {

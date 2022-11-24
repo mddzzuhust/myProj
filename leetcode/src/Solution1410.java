@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1410 {
     public String entityParser(String text) {

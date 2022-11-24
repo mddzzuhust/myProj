@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1678 {
     public String interpret(String command) {

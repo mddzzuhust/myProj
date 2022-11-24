@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1721 {
     public ListNode swapNodes(ListNode head, int k) {

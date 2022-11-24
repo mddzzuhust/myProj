@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution695 {
     public int maxAreaOfIsland(int[][] grid) {

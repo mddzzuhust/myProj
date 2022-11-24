@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution378 {
     public int kthSmallest(int[][] matrix, int k) {

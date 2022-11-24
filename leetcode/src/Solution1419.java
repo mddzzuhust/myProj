@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1419 {
     public int minNumberOfFrogs(String croakOfFrogs) {

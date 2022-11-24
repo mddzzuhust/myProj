@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1362 {
     public int[] closestDivisors(int num) {

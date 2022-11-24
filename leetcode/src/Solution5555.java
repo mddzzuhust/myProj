@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution5555 {
     public int countVowelStrings(int n) {

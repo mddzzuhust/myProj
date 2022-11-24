@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class Solution1530 {
     int result = 0;
