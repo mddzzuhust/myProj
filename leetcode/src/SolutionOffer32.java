@@ -68,4 +68,17 @@ public class SolutionOffer32 {
         System.out.println(s.levelOrder(node));
         System.out.println(s.levelOrder(node).size());
     }
+
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
 }

@@ -32,4 +32,17 @@ public class Solution951 {
         boolean rr = flipEquiv(root1.right,root2.right);
         return true&&((ll&&rr)||(lr&&rl));
     }
+
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
 }

@@ -23,4 +23,11 @@ public class Solution0208 {
         }
         return fast;
     }
+
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { this.val = x; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+    }
 }

@@ -36,4 +36,11 @@ public class Solution1721 {
         cur = null;
         ListNode tmp = s.swapNodes(head,2);
     }
+
+    static class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { this.val = x; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+    }
 }

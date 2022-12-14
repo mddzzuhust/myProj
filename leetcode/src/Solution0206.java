@@ -1,5 +1,3 @@
-
-
 public class Solution0206 {
     public boolean isPalindrome(ListNode head) {
         if(head==null)
@@ -36,5 +34,12 @@ public class Solution0206 {
         one.next  = two;
         Solution0206 s = new Solution0206();
         System.out.println(s.isPalindrome(one));
+    }
+
+    static class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { this.val = x; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 }
