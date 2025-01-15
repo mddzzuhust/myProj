@@ -1,3 +1,5 @@
+package backtracking;
+
 public class EightQueens {
     static int[] solution = new int[8];
     static int count = 0;

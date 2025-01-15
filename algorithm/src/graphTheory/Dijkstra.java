@@ -1,3 +1,5 @@
+package graphTheory;
+
 import java.util.Scanner;
 
 /**
