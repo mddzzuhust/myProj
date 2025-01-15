@@ -1,7 +1,5 @@
 package designmode;
 
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
-
 public class MementoPattern {
     public static void main(String[] args){
         Originator or=new Originator();

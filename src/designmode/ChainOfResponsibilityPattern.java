@@ -1,7 +1,5 @@
 package designmode;
 
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
-
 public class ChainOfResponsibilityPattern {
     public static void main(String[] args){
         Handler handler1=new ConcreteHandler1();
