@@ -1,4 +1,4 @@
-package tree;
+package tree.avltree;
 
 /**
  * Java 语言: AVL树

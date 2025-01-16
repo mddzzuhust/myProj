@@ -1,4 +1,4 @@
-package tree;
+package tree.bstree;
 
 public class BSTree<T extends Comparable<T>> {
     private BSTNode<T> mRoot;

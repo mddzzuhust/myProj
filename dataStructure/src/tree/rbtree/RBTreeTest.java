@@ -1,4 +1,4 @@
-package tree;
+package tree.rbtree;
 
 /**
  * Java 语言: 二叉查找树

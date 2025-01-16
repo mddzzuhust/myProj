@@ -1,4 +1,4 @@
-package tree;
+package tree.bstree;
 
 public class BSTreeTest {
     private static final int arr[] = {1,5,4,3,2,6};
