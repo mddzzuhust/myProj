@@ -1,7 +1,7 @@
 package tree;
 
 /**
- * Java 语言: AVL树
+ * Java 语言: AVL树,平衡二叉搜索树
  *
  * @author skywang
  * @date 2013/11/07
