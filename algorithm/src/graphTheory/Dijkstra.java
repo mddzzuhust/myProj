@@ -1,7 +1,7 @@
 package graphTheory;
 
 import java.util.Scanner;
-
+//最短路径
 /**
  * @author 爱JAVA的小周
  * 迪杰斯特拉算法:

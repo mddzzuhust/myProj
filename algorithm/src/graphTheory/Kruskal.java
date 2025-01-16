@@ -3,6 +3,7 @@ package graphTheory;
 import java.util.Scanner;
 import java.util.ArrayList;
 
+//最小生成树
 public class Kruskal {
     private static int MAX = 100;
     private ArrayList<Edge> edge = new ArrayList<Edge>();//整个图的边

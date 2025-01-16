@@ -1,7 +1,7 @@
 package graphTheory;
 
 import java.util.Scanner;
-
+//最小生成树
 public class Prim {
     private static int MAX = 100;
     private static int[][] graph = new int[MAX][MAX];
