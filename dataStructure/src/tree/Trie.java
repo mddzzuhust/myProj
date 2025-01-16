@@ -1,5 +1,6 @@
 package tree;
 
+//字典树
 import java.util.HashMap;
 import java.util.Map;
 

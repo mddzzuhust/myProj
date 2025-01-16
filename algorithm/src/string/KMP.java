@@ -66,8 +66,8 @@ public class KMP {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         KMP kmp = new KMP();
-        String str = "abababdafdasabcfdfeaba";
-        String pattern = "abc";
+        String str = "BBCABCDABABCDABCDABDE";
+        String pattern = "ABCDABD";
         System.out.println(kmp.kmp(str, pattern));
     }
 
