@@ -30,6 +30,6 @@ public class ShortestPalindrome {
     }
     public static void main(String[] args){
         ShortestPalindrome s=new ShortestPalindrome();
-        System.out.println(s.shortestPalindrome(""));
+        System.out.println(s.shortestPalindrome("BBCABCDABABCDABCDABDE"));
     }
 }
