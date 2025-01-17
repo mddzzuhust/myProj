@@ -1,4 +1,3 @@
-# MYPROJ
 自己的一些编程小实践
 algorithm : 常用算法
 dataStructure : 数据结构
