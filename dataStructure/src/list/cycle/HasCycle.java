@@ -1,14 +1,4 @@
-package list;
-
-class CycleNode {
-    int val;
-    CycleNode next;
-
-    CycleNode(int x) {
-        val = x;
-        next = null;
-    }
-}
+package list.cycle;
 
 public class HasCycle {
     public boolean hasCycle(CycleNode head) {
