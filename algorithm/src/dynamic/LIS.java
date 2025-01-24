@@ -6,53 +6,41 @@ import java.util.Scanner;
  */
 public class LIS {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int len = sc.nextInt();
-        int[] arr = new int[len];
-        sc.nextLine();
-        String s = sc.nextLine();
-        String[] arrs = s.split(" ");
-        for (int i = 0; i < len; i++) {
-            arr[i] = Integer.parseInt(arrs[i]);
-        }
-        System.out.println(getMaxLength(arr,len));
+        LIS lis = new LIS();
+        int[] nums = new int[]{10,9,2,5,3,7,101,18};
+        System.out.println(lis.lengthOfLIS(nums));
     }
-
-    public static int getMaxLength(int[] array,int numsize){
-        if(numsize<2){
-            return numsize;
+    public int lengthOfLIS(int[] nums){
+        int length = nums.length;
+        if(length == 0){
+            return 0;
         }
-
-        int[] store = new int[numsize];
-        store[0] = array[0];
-        int length = 1;
-        int position;
-        for (int i = 1; i < numsize; i++) {
-            if(array[i]>store[length-1]){
-                store[length++] = array[i];
-            }else {
-                position = halfSearch(store,array[i],length);
-//System.out.println(position);
-                store[position] = array[i];
+        int curlength = 0;
+        int[] result = new int[length+1];
+        result[0]=Integer.MIN_VALUE;
+        for(int i=0; i<length;i++){
+            int pre = binarySearch(result,0,curlength,nums[i]);
+            if(nums[i]==result[pre]){
+                continue;
+            }
+            pre++;
+            result[pre]=nums[i];
+            if(pre > curlength){
+                curlength = pre;
             }
         }
-        return length;
+        return curlength;
     }
 
-    public static int halfSearch(int[] array, int key, int length){
-        int left = 0;
-        int right = length-1;
-        int middle = 0;
-        while (left<=right){
-            middle = left + (right-left)/2;
-            if (array[middle]>key){
-                right = middle-1;
-            }else if(array[middle]<key){
-                left = middle+1;
-            }else {
-                return middle;
+    private int binarySearch(int[] result, int l, int r, int num){
+        while(l<=r){
+            int mid = (l+r)/2;
+            if(num<result[mid]){
+                r = mid-1;
+            }else{
+                l = mid+1;
             }
         }
-        return left;
+        return r;
     }
 }
