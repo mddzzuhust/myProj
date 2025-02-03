@@ -1,11 +1,20 @@
 public class Test {
-    public static void main(String[] args) {
-        String str = "Search and preview millions of books from libraries and publishers worldwide using Google Book Search.";
-        String[] strings = str.split("[ ,.]");
-        for (String item:strings){
-            System.out.println(item);
-        }
+    public int[] productExceptSelf(int[] nums) {
+        int[] res=new int[nums.length];
+        res[res.length-1]=1;
 
-        System.out.println("".split("\\|").toString());
+        for(int i=nums.length-2;i>=0;i--){
+            res[i]=res[i+1]*nums[i+1];
+        }
+        int left=1;
+        for(int i=0;i<nums.length;i++){
+            res[i]*=left;
+            left*=nums[i];
+        }
+        return res;
+    }
+    public static void main(String[] args) {
+        Test test=new Test();
+        test.productExceptSelf(new int[]{1,2,3,4});
     }
 }
