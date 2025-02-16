@@ -1,3 +1,5 @@
+package thread;
+
 public class AlternateThreadExecution {
 
     private static final Object lock = new Object();

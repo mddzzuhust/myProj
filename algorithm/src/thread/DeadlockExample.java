@@ -1,3 +1,5 @@
+package thread;
+
 public class DeadlockExample {
     private static Object Resource1 = new Object();
     private static Object Resource2 = new Object();
