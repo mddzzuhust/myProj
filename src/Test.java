@@ -1,20 +1,11 @@
 public class Test {
-    public int[] productExceptSelf(int[] nums) {
-        int[] res=new int[nums.length];
-        res[res.length-1]=1;
-
-        for(int i=nums.length-2;i>=0;i--){
-            res[i]=res[i+1]*nums[i+1];
-        }
-        int left=1;
-        for(int i=0;i<nums.length;i++){
-            res[i]*=left;
-            left*=nums[i];
-        }
-        return res;
-    }
     public static void main(String[] args) {
-        Test test=new Test();
-        test.productExceptSelf(new int[]{1,2,3,4});
+        String str1 = "Hello";
+        String str2 = new String("Hello");
+        String str3 = "He" + "llo";
+        String str4 = "He" + new String("llo");
+        System.out.println(str1 == str2);
+        System.out.println(str1 == str3);
+        System.out.println(str1 == str4);
     }
 }
