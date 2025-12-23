@@ -14,7 +14,6 @@ public class buffer {
             }
             //将Buffer从写模式切换到读模式
             buffer.flip();
-
             System.out.println("position >> " + buffer.position()
                     + "limit >> " + buffer.limit()
                     + "capacity >> " + buffer.capacity());
